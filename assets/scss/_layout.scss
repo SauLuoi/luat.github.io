@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    a{
+        text-decoration: none;
+    }
+    li{
+        list-style: none;
+    }
+    @font-face {
+        font-family: SFProDisplay;
+        src: url(../font/FontsFree-Net-SFProDisplay-MediumItalic.ttf);
+    }
+
+    @font-face {
+        font-family: Roboto;
+        src: url(../font/Roboto-Regular.ttf);
+    }
+
+    img {
+        width: 100%;
+    }
+
+    button{
+        border: none;
+        background: none;
+    }
+
+    p,h1,h2,h3,h4,h5,h6, span{
+        margin-bottom: 0;
+    }
+    color: #181818;
+}
