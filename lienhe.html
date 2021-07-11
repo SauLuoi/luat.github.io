@@ -17,6 +17,7 @@
     <!-- menu -->
     <link rel="stylesheet" type="text/css" href="./assets/css/mmenu.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/menuMobile.css">
 </head>
 
 <body>
@@ -55,6 +56,29 @@
             </ul>
         </div>
     </div>
+
+    <div id="page" style="display: none;">
+        <div class="header">
+            <a href="#menu-mobile"><span></span></a>
+        </div>
+        <nav id="menu-mobile">
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li>
+                    <a href="" class="ative">Giới thiệu</a>
+                </li>
+                <li><a href="#contact">Doanh nghiệp</a></li>
+                <li><a href="http://">Đất đai - nhà ở</a></li>
+                <li><a href="http://">Đầu tư</a></li>
+                <li><a href="http://">Thuế - kế toán</a></li>
+                <li><a href="http://">Tranh tụng</a></li>
+                <li><a href="http://">Thủ tục hành chính</a></li>
+                <li><a href="http://">Tin tức</a></li>
+                <li><a href="http://">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </div>
+
     <div id="body">
         <div class="container body_content">
             <div class="row box-new">
@@ -75,16 +99,13 @@
                         <div class="box-contact-form">
                             <div class="row">
                                 <div class="col-6 mb-4">
-                                    <input type="text" class="form-control" placeholder="Họ tên"
-                                        aria-label="Họ tên">
+                                    <input type="text" class="form-control" placeholder="Họ tên" aria-label="Họ tên">
                                 </div>
                                 <div class="col-6 mb-4">
-                                    <input type="email" class="form-control" placeholder="Email"
-                                        aria-label="Email">
+                                    <input type="email" class="form-control" placeholder="Email" aria-label="Email">
                                 </div>
                                 <div class="col-6 mb-4">
-                                    <input type="text" class="form-control" placeholder="Địa chỉ"
-                                        aria-label="Địa chỉ">
+                                    <input type="text" class="form-control" placeholder="Địa chỉ" aria-label="Địa chỉ">
                                 </div>
                                 <div class="col-6 mb-4">
                                     <input type="number" class="form-control" placeholder="Số điện thoại"
@@ -93,7 +114,8 @@
                             </div>
                             <div class="row">
                                 <div class="col mb-4">
-                                    <textarea class="form-control" rows="5" aria-label="With textarea">Nội dung</textarea>
+                                    <textarea class="form-control" rows="5"
+                                        aria-label="With textarea">Nội dung</textarea>
                                 </div>
                             </div>
                             <div class="row mb-4">
